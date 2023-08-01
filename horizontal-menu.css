@@ -5,22 +5,38 @@ ol,ul {
 
 
 #mainMenu {
-	margin: 12px;
-	width: 900px;
-	font-family: sans-serif;
+    display:flex;
+    align-items:center;
+    padding-inline: 500px;    
+    width: 100%;
+    background: linear-gradient(0deg, rgba(193, 188, 188, 0.31) 0%,rgba(255, 255, 255, 0.27) 100%);
+    border-bottom: solid 2px #000;
 
 }
 
 #mainMenu li {
-	display:block;
-	width:120px;
-	float:left;
-	margin-left:2px;
-	border:1px solid #000;
+
+    display: inline-block;
+
+    padding: 5px;
+    
+    color: #fff;
+    
+    font-family: trebuchet ms;
+    
+    font-size: 19px;
+    
+    font-weight: lighter;
+    
+    text-align:center;
+    
+    word-wrap:break-word;
+    
+
 }
 
 #mainMenu a {
-	display:block;
+	display:flex;
 	padding:3px;
 	text-decoration:none;
 	background-color:#fff;

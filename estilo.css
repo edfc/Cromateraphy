@@ -1,6 +1,7 @@
 .background
 {
     background-color: 	#32CD32;
+    background: linear-gradient(0deg, rgba(93, 246, 62, 0.753) 0%,rgba(46, 178, 53, 0.27) 100%);
     max-height: 140px;
 }
 
